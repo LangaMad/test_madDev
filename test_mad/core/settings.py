@@ -43,7 +43,7 @@ INSTALLED_APPS = [
     'apps.patient',
     'apps.user'
 ]
-AUTH_USER_MODEL = 'users.User'
+AUTH_USER_MODEL = 'user.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

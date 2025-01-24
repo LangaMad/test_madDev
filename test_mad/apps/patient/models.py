@@ -10,4 +10,4 @@ class Patient(models.Model):
     created_at = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
-        return f"Patient {self.id} {self.first_name}"
+        return f"Patient: ID- {self.id}, Name-{self.first_name}"
