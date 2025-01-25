@@ -23,3 +23,7 @@ class TestPatientEndpoints:
         self.client.force_authenticate(user=non_doctor)
         response = self.client.get(self.patients_url)
         assert response.status_code == status.HTTP_403_FORBIDDEN
+
+
+
+
