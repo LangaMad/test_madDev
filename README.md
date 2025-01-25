@@ -17,14 +17,14 @@
 Шаг 2: Скопировать файл переменных окружения
 Создайте файл .env в корневой папке проекта (test_mad). Этот файл будет использоваться для хранения чувствительных данных, таких как настройки базы данных.
 
-SECRET_KEY='your-django-secret-key'
-DEBUG=True
+- SECRET_KEY='your-django-secret-key'
+- DEBUG=True
 
-DB_NAME=mad_db
-DB_USER=mad_user
-DB_PASSWORD=qwerty123
-DB_HOST=db
-DB_PORT=5432
+- DB_NAME=mad_db
+- DB_USER=mad_user
+- DB_PASSWORD=qwerty123
+- DB_HOST=db
+- DB_PORT=5432
 Замените значения на нужные (если необходимо).
 
 Эти команды выполняются в терминале на вашем компьютере (если вы используете Linux или Mac, терминал будет в стандартном приложении, для Windows — в командной строке или PowerShell).
