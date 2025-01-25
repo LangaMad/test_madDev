@@ -26,6 +26,7 @@ class UserManager(BaseUserManager):
 
 
 class User(AbstractUser):
+    username = None
     is_doctor = models.BooleanField(default=True)
     email = models.EmailField(unique=True, null=False, blank=False)
 
